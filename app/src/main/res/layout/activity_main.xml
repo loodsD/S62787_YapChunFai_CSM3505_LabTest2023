@@ -38,6 +38,7 @@
             android:id="@+id/easy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Easy"
             android:paddingEnd="30dp">
         </RadioButton>
@@ -70,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:textSize="40dp"
+            android:textSize="20dp"
             android:padding="45dp"
             android:text="1">
         </TextView>
@@ -79,7 +80,7 @@
             android:id="@+id/operator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40dp"
+            android:textSize="20dp"
             android:padding="45dp"
             android:text="+">
         </TextView>
@@ -88,14 +89,14 @@
             android:id="@+id/operand2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40dp"
+            android:textSize="20dp"
             android:padding="45dp"
             android:text="2">
         </TextView>
     </LinearLayout>
 
     <EditText
-        android:id="@+id/answer"
+        android:id="@+id/yourAnswer"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
