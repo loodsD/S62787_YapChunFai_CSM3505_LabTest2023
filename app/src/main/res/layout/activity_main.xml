@@ -100,6 +100,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:inputType="numberSigned"
         android:hint="Your Answer"
         android:textStyle="bold"
         android:layout_gravity="center">
