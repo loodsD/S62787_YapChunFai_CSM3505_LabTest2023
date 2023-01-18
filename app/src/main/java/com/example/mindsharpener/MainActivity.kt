@@ -114,6 +114,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this,"From now on the difficulty is HARD",Toast.LENGTH_SHORT).show()
                 }
             }
+            userAnswer.setText("")
         }
     }
 
